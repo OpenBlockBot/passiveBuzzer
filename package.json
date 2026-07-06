@@ -27,12 +27,8 @@
       }
     },
     "extensionId": "passiveBuzzer",
-    "supportDevice": [
-        "arduinoUno",
-        "arduinoNano",
-        "arduinoLeonardo",
-        "arduinoMega2560",
-        "arduinoEsp8266"
+    "arch": [
+      "arduino-*"
     ],
     "iconURL": "./assets/passiveBuzzer.png",
     "description": {
@@ -45,7 +41,10 @@
     "generator": "./src/generator.js",
     "translations": "./src/translations.js",
     "libraries": "./libraries",
-    "tags": ["actuator", "audio"],
+    "tags": [
+      "actuator",
+      "audio"
+    ],
     "helpLink": "https://wiki.openblock.cc"
   },
   "devDependencies": {
